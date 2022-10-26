@@ -4,8 +4,8 @@ USE BnB;
 
 CREATE TABLE utente (
     id int AUTO_INCREMENT PRIMARY KEY, 
-    username VARCHAR(10) NOT NULL,
-    password VARCHAR(10) NOT NULL,
+    username VARCHAR(13) NOT NULL,
+    password VARCHAR(13) NOT NULL,
     data_nascita DATE NOT NULL,
     gender CHAR(1) NOT NULL DEFAULT "F",
     cf CHAR(16) NOT NULL UNIQUE,
@@ -20,10 +20,10 @@ CREATE TABLE prenotazioni(
     id int AUTO_INCREMENT PRIMARY KEY, 
     fk_utente INT NOT NULL UNIQUE,
     fk_offerte INT NOT NULL UNIQUE,
-    data_cekin DATE NOT NULL,
-    data_cekout DATE NOT NULL,
+    data_checkin DATE NOT NULL,
+    data_checkout DATE NOT NULL,
     cost DECIMAL NOT NULL,
-    CHECK (data_cekout <= data_cekin)  
+    CHECK (data_checkout <= data_checkin)  
 );
 
 CREATE TABLE offerte(
