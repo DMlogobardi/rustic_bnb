@@ -10,12 +10,9 @@ mydb = mysql.connector.connect(
   database = "bnb"
 )
 
-cursor = mydb.cursor()
-
 #quary for test
-cursor.execute("SELECT * FROM utente")
-
-result = cursor.fetchall()
-
-for x in result:
-  print(x)
+def __quary_test__():
+  cursor = mydb.cursor()
+  cursor.execute("SELECT * FROM utente")
+  result = cursor.fetchall()
+  return result
