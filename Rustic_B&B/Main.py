@@ -1,6 +1,3 @@
-import Gestione_Database.Connesione_Database  as quary
+import interfaccia.start as start
 
-result = quary.__quary_test__()
-
-for x in result:
-  print(x)
+start.start()
