@@ -8,7 +8,7 @@ CREATE TABLE utente (
     password VARCHAR(13) NOT NULL,
     data_nascita DATE NOT NULL,
     gender CHAR(1) NOT NULL DEFAULT "F",
-    n.d VARCHAR(16) NOT NULL UNIQUE,
+    n_d VARCHAR(16) NOT NULL UNIQUE,
     admin CHAR(1) NOT NULL DEFAULT "n",
     CHECK (data_nascita <= CURRENT_DATE)
 );
