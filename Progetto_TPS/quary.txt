@@ -1,3 +1,0 @@
-1)Prendere username, password e admin da utente per il login
-2)prendere data_in e out da prenotazioni
-3)prendere tutte le prenotazioni
