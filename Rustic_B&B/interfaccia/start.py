@@ -2,6 +2,7 @@ from PyQt6.QtWidgets import QMainWindow, QApplication, QDialog, QLabel, QWidget
 from PyQt6.QtGui import QFont
 from PyQt6.uic import loadUi
 import interfaccia.enter as enter  
+import interfaccia.register as register
 import sys 
 
 class Start(QMainWindow):
@@ -13,6 +14,12 @@ class Start(QMainWindow):
         self.setWindowTitle("B&B")
         self.pushButton_3.clicked.connect(self.credit)
         self.pushButton.clicked.connect(self.login)
+        self.pushButton_2.clicked.connect(self.fun_register)
+
+    def fun_register(self):
+        self.hide()
+        reg = register.Register(self)
+        reg.exec()
 
     def login(self):
         self.hide()
