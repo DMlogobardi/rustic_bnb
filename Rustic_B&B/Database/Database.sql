@@ -8,9 +8,8 @@ CREATE TABLE utente (
     password VARCHAR(13) NOT NULL,
     data_nascita DATE NOT NULL,
     gender CHAR(1) NOT NULL DEFAULT "F",
-    n_d VARCHAR(16) NOT NULL UNIQUE,
+    n_c VARCHAR(16) NOT NULL,
     admin CHAR(1) NOT NULL DEFAULT "n",
-    CHECK (data_nascita <= CURRENT_DATE)
 );
 
 INSERT INTO utente (username, password, gender, data_nascita, cf, admin)
@@ -22,14 +21,13 @@ CREATE TABLE prenotazioni(
     fk_offerte INT NOT NULL UNIQUE,
     data_checkin DATE NOT NULL,
     data_checkout DATE NOT NULL,
-    cost DECIMAL NOT NULL,
-    CHECK (data_checkout <= data_checkin)  
+    cost DECIMAL NOT NULL,  
 );
 
 CREATE TABLE offerte(
     id int AUTO_INCREMENT PRIMARY KEY,
     data_in DATE NOT NULL,
-    data_out DATE NOT NULL CHECK(data_out <= data_in),
+    data_out DATE NOT NULL,
     offerta DECIMAL NOT NULL,
     max_person int NOT NULL DEFAULT 1
 );
