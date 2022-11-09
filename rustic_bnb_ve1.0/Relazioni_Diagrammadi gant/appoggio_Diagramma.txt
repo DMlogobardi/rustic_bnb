@@ -1,0 +1,27 @@
+Martedi 2022/10/25 23:27 / 23:59 Risoluzione e installazione del connettore per Mysql
+Mercoledi 2022/10/26 00:02 / 00:24 inizio svilippo diagramma ER.
+Mercoledi 2022/10/26 18:30 / 20:00 preparata beta Database.
+Mercoledi 2022/10/26 20:05 / 20:38 tentativo di connesione con database.
+Mercoledi 2022/10/26 21:30 / 22:10 rilacscata alpha progetto.
+Giovedi 2022/10/27 15:00 / 16:10 studio e scelta della libreria grafica.
+Giovedi 2022/10/28 17:40 / 19:50 inizio implementazione GUI con PyQt5.
+Giovedi 2022/10/28 23:30 / 00:40 risoluzuione problema import
+Sabato 2022/10/29 13:00 /  13:30 utilizo di .ui
+Sabato 2022/10/29 15:00 / 17:30 implementazione .ui, problemi con import
+Domenica 2022/10/30 13:00 / 13:30 risoluzione problemi import, passaggio a PyQt6, problemi switch frame
+Domenica 2022/10/30 19:45 / 21:44  implementazione switch pagine: frame start: funzionante, frame enter e register implementati con funzioni mancanti
+Lunedi 2022/10/31 11:06 / 13:15 implementazione frame utente.
+Lunedi 2022/10/31 22:20 / 23:40 inizio implementazione funzione: fun_confirm().
+Martedi 2022/11/01 13:48 / 14:30 risoluzione insermento nel database.
+Martedi 2022/11/01 19:00 / 20:50 problemi con checbox.
+Mercoledi 2022/11/02 1:00 / 2:10 risolti problemi checbox, problemi con controllo utenti esistenti
+Mercoledi 2022/11/02 17:53 / 20:00 problemi controllo utenti corretti, implementazione totale login, inserito gui admin
+Giovedi 2022/11/03 18:20 / 20:26 inizio implementazione admin, lentezza dovuta a problemi in casa
+Giovedi 2022/11/03 21:50 / 23:10 continuo implementazione admin
+Venerdi 2022/11/04 21:36 / 23:36 ricostruzione del dataBase implementazione di ambe le scrollArea in admin.py e dei relativi pulsanti update
+Sabato 2022/11/05  16:00 / 19:00 completazione quasi totale di admin
+Lunedi 2022/11/07 18:30 / 20:30 implementazione totale admin
+Martedi 2022/11/08 17:00 / 20:03 inizio implementazione utent
+Mercoledi 2022/11/09 22:00 / 00:12 publicazione versione 1.0 progetto
+
+ 
