@@ -1,15 +1,31 @@
 # rustic_bnb
 
-Italiano
+English
 
-Rustic BnB è un progetto sviluppato a scopo didattico. Durante la sua realizzazione sono state affrontate diverse sfide progettuali e implementative che hanno contribuito ad approfondire competenze tecniche e di sviluppo software.
+Rustic BnB is an educational project developed as a desktop application for managing a Bed & Breakfast facility.
 
-Il progetto rappresenta una base funzionale che può essere ulteriormente estesa e migliorata con nuove funzionalità e ottimizzazioni.
+The application provides features for managing reservations, customers and accommodation data through a graphical user interface built with PyQt6 and integrated with a MySQL database.
+
+During its development, several design and implementation challenges were addressed, contributing to the improvement of software development and database management skills.
+
+Technologies Used
+- Python
+- PyQt6
+- mysql.connector
+- MySQL
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-English
+Italiano
 
-Rustic BnB is a project developed for educational purposes. During its development, several design and implementation challenges were addressed, contributing to the improvement of software development and technical skills.
+Rustic BnB è un progetto sviluppato a scopo didattico come applicazione desktop per la gestione di una struttura Bed & Breakfast.
 
-The project provides a functional foundation that can be further extended and enhanced with additional features and optimizations.
+L'applicazione offre funzionalità per la gestione di prenotazioni, clienti e dati delle strutture attraverso un'interfaccia grafica realizzata con PyQt6 e integrata con un database MySQL.
+
+Durante la sua realizzazione sono state affrontate diverse sfide progettuali e implementative che hanno contribuito ad approfondire competenze di sviluppo software e gestione di basi di dati.
+
+Tecnologie utilizzate
+- Python
+- PyQt6
+- mysql.connector
+- MySQL
